@@ -1,7 +1,6 @@
 .body, a, h1, h2, h3, h4, h5, h6 ,p{
     font-family: 'Bebas Neue', cursive;
 }
-
 .cabecalho{
     background: red;/* modificando o fundo da caixa */
     padding: 10px;
