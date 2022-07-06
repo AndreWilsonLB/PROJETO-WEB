@@ -1,0 +1,62 @@
+.body, a, h1, h2, h3, h4, h5, h6 ,p{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cabecalho{
+    background: red;/* modificando o fundo da caixa */
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+#article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.box{
+    margin: 20px;
+    border: solid 1px;
+    width: 30%;
+}
+.text-produto{
+    padding:20px;
+}
+img{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+.menu li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.banner{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size:xx-large;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+.rodape{
+    padding: 30px;
+    background-color: red;
+}
+.rodape a{
+    color: white;
+}
